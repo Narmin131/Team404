@@ -1,0 +1,31 @@
+section {
+  width: 100%;
+  height: auto;
+  background-color: bisque;
+}
+section .leftImg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .leftImg img {
+  width: 80%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.topText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 576px) {
+  .text h1 {
+    font-size: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

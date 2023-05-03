@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 12vh;
+    background-color: var(--headerBg);
+    border-bottom: 2px solid red;
+
+    h1 {
+        color: var(--textColor);
+    }
+}
+
+
+section {
+    width: 100%;
+    height: 50vh;
+    background-color: var(--heroBg);
+
+}
+
+// root
+
+.light {
+    --headerBg: #cec5c5;
+    --textColor: #000;
+    --heroBg: red;
+}
+
+
+.dark {
+    --headerBg: #000;
+    --textColor: #d5cccc;
+    --heroBg: blue;
+}
+

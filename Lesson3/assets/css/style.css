@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myDiv{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 10px;
+    display: none;
+}
+
+.parent{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: relative;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(125, 94, 94);
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}

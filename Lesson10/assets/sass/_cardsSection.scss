@@ -1,0 +1,51 @@
+.cards {
+    width: 100%;
+    height: 80vh;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box {
+        width: 100%;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+// 0 - 576px - XS
+// 576px - 768px - Sm
+// 768px - 992px - Md
+// 992px - 1200px - Lg
+// 1200px - 1400px - Xl
+
+
+// 0 --- 576 qeder
+@media (max-width:576px) {
+    .cards {
+        height: auto;
+    }
+}
+
+// 576 --- 768 qeder
+@media (max-width:768px) {
+    .cards {
+        height: auto;
+    }
+}
+
+// 768 --- 992 qeder
+@media (max-width:992px) {
+    .cards {
+        height: auto;
+    }
+}
+
+
+// 992 --- 1200 qeder
+@media (max-width:1200px) {}

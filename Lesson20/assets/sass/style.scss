@@ -1,0 +1,32 @@
+.new{
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.menu{
+    width: 200px;
+    height: 100vh;
+    background-color: cadetblue;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(100%);
+    transition: all .4s ease;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    outline: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
