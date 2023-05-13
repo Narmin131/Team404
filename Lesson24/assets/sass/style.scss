@@ -1,0 +1,143 @@
+// Boostrap slider code start
+
+.first-carousel {
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+
+    .carousel {
+        width: 100% !important;
+        height: 100% !important;
+
+        .carousel-inner {
+            width: 100% !important;
+            height: 100% !important;
+
+            .carousel-item {
+                width: 100% !important;
+                height: 100% !important;
+
+                img {
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+// Boostrap slider code end
+
+
+// Swiper slider code start
+.second-carousel {
+    width: 100%;
+    height: 50vh;
+    margin: 10px 0;
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+
+        .swiper-wrapper {
+            width: 100%;
+            height: 100%;
+
+            .swiper-slide {
+                width: 100% !important;
+                height: 100% !important;
+
+                img {
+                    width: 100% !important;
+                    height: 100% !important;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+
+// Swiper slider code end
+
+
+.third-carousel {
+    width: 100%;
+    height: 30vh;
+    background-color: burlywood;
+    padding: 10px 16px;
+
+    .owl-carousel {
+        width: 100%;
+        height: 100%;
+
+        .owl-stage-outer {
+            width: 100%;
+            height: 100%;
+
+            .owl-stage {
+                width: 100%;
+                height: 100%;
+
+                .owl-item {
+                    width: 200px;
+                    background-color: red;
+                    height: 100%;
+                }
+            }
+
+            .owlItem {
+                width: 200px;
+                background-color: red;
+                height: 100%;
+            }
+        }
+    }
+}
+
+
+
+// To to btn
+
+
+.to-top-btn{
+    background-color: black;
+    outline: none;
+    border: none;
+    padding: 20px;
+    right: 15px;
+    bottom: 10px;
+    position: fixed;
+    z-index: 13;
+    opacity: 0;
+    transition: all .3s ease;
+    animation-name: myAnimation;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+    i{
+        color: #fff;
+        font-size: 17px;
+    }
+}
+
+.a{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    margin: 10px 0;
+}
+
+.active{
+    opacity: 1;
+}
+
+@keyframes myAnimation {
+    0%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}

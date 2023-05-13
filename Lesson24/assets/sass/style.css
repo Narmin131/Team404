@@ -1,0 +1,117 @@
+.first-carousel {
+  width: 100%;
+  height: 100vh;
+  background-color: bisque;
+}
+.first-carousel .carousel {
+  width: 100% !important;
+  height: 100% !important;
+}
+.first-carousel .carousel .carousel-inner {
+  width: 100% !important;
+  height: 100% !important;
+}
+.first-carousel .carousel .carousel-inner .carousel-item {
+  width: 100% !important;
+  height: 100% !important;
+}
+.first-carousel .carousel .carousel-inner .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.second-carousel {
+  width: 100%;
+  height: 50vh;
+  margin: 10px 0;
+}
+.second-carousel .swiper {
+  width: 100%;
+  height: 100%;
+}
+.second-carousel .swiper .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.second-carousel .swiper .swiper-wrapper .swiper-slide {
+  width: 100% !important;
+  height: 100% !important;
+}
+.second-carousel .swiper .swiper-wrapper .swiper-slide img {
+  width: 100% !important;
+  height: 100% !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.third-carousel {
+  width: 100%;
+  height: 30vh;
+  background-color: burlywood;
+  padding: 10px 16px;
+}
+.third-carousel .owl-carousel {
+  width: 100%;
+  height: 100%;
+}
+.third-carousel .owl-carousel .owl-stage-outer {
+  width: 100%;
+  height: 100%;
+}
+.third-carousel .owl-carousel .owl-stage-outer .owl-stage {
+  width: 100%;
+  height: 100%;
+}
+.third-carousel .owl-carousel .owl-stage-outer .owl-stage .owl-item {
+  width: 200px;
+  background-color: red;
+  height: 100%;
+}
+.third-carousel .owl-carousel .owl-stage-outer .owlItem {
+  width: 200px;
+  background-color: red;
+  height: 100%;
+}
+
+.to-top-btn {
+  background-color: black;
+  outline: none;
+  border: none;
+  padding: 20px;
+  right: 15px;
+  bottom: 10px;
+  position: fixed;
+  z-index: 13;
+  opacity: 0;
+  transition: all 0.3s ease;
+  animation-name: myAnimation;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
+}
+.to-top-btn i {
+  color: #fff;
+  font-size: 17px;
+}
+
+.a {
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  margin: 10px 0;
+}
+
+.active {
+  opacity: 1;
+}
+
+@keyframes myAnimation {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}/*# sourceMappingURL=style.css.map */
